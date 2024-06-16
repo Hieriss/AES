@@ -1,0 +1,10 @@
+C:\Users\Admin\Desktop\AES\AES_GUI\bin\Debug\AES_GUI.exe.config
+C:\Users\Admin\Desktop\AES\AES_GUI\bin\Debug\AES_GUI.exe
+C:\Users\Admin\Desktop\AES\AES_GUI\bin\Debug\AES_GUI.pdb
+C:\Users\Admin\Desktop\AES\AES_GUI\obj\Debug\AES_GUI.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\AES\AES_GUI\obj\Debug\AES_GUI.Form1.resources
+C:\Users\Admin\Desktop\AES\AES_GUI\obj\Debug\AES_GUI.Properties.Resources.resources
+C:\Users\Admin\Desktop\AES\AES_GUI\obj\Debug\AES_GUI.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\AES\AES_GUI\obj\Debug\AES_GUI.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\AES\AES_GUI\obj\Debug\AES_GUI.exe
+C:\Users\Admin\Desktop\AES\AES_GUI\obj\Debug\AES_GUI.pdb

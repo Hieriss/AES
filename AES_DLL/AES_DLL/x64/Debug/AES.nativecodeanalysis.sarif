@@ -1,0 +1,2783 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/cryptlib.h"
+                },
+                "region": {
+                  "startLine": 180,
+                  "startColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::Exception::{dtor}",
+                  "decoratedName": "??1Exception@CryptoPP@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/cryptlib.h"
+                },
+                "region": {
+                  "startLine": 255,
+                  "startColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::OS_Error::{dtor}",
+                  "decoratedName": "??1OS_Error@CryptoPP@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CryptoPP::BufferedTransformation::m_buf' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/cryptlib.h"
+                },
+                "region": {
+                  "startLine": 1657,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::BufferedTransformation::{ctor}",
+                  "decoratedName": "??0BufferedTransformation@CryptoPP@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CryptoPP::BufferedTransformation::m_buf"
+          }
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "This kind of function should not throw. Declare it 'noexcept' (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/queue.h"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "std::swap",
+                  "decoratedName": "??$swap@VByteQueue@CryptoPP@@$0A@@std@@YAXAEAVByteQueue@CryptoPP@@0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 101,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "KeyGen",
+                  "decoratedName": "KeyGen",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 120,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IVGen",
+                  "decoratedName": "IVGen",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 131,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCBC",
+                  "decoratedName": "?EncryptCBC@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 149,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCBC",
+                  "decoratedName": "?EncryptCBC@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 132,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCBC",
+                  "decoratedName": "?EncryptCBC@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCBC",
+                  "decoratedName": "?EncryptCBC@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 133,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCBC",
+                  "decoratedName": "?EncryptCBC@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 178,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCBC",
+                  "decoratedName": "?DecryptCBC@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 176,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCBC",
+                  "decoratedName": "?DecryptCBC@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 161,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCBC",
+                  "decoratedName": "?DecryptCBC@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 160,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCBC",
+                  "decoratedName": "?DecryptCBC@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 159,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCBC",
+                  "decoratedName": "?DecryptCBC@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCFB",
+                  "decoratedName": "?EncryptCFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 190,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCFB",
+                  "decoratedName": "?EncryptCFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCFB",
+                  "decoratedName": "?EncryptCFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 207,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCFB",
+                  "decoratedName": "?EncryptCFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 205,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCFB",
+                  "decoratedName": "?EncryptCFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 219,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCFB",
+                  "decoratedName": "?DecryptCFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 236,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCFB",
+                  "decoratedName": "?DecryptCFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 234,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCFB",
+                  "decoratedName": "?DecryptCFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 218,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCFB",
+                  "decoratedName": "?DecryptCFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 217,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCFB",
+                  "decoratedName": "?DecryptCFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 265,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptOFB",
+                  "decoratedName": "?EncryptOFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptOFB",
+                  "decoratedName": "?EncryptOFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 247,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptOFB",
+                  "decoratedName": "?EncryptOFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 249,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptOFB",
+                  "decoratedName": "?EncryptOFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 263,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptOFB",
+                  "decoratedName": "?EncryptOFB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptOFB",
+                  "decoratedName": "?DecryptOFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 276,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptOFB",
+                  "decoratedName": "?DecryptOFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 277,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptOFB",
+                  "decoratedName": "?DecryptOFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 292,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptOFB",
+                  "decoratedName": "?DecryptOFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 294,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptOFB",
+                  "decoratedName": "?DecryptOFB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 305,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCTR",
+                  "decoratedName": "?EncryptCTR@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 306,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCTR",
+                  "decoratedName": "?EncryptCTR@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 307,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCTR",
+                  "decoratedName": "?EncryptCTR@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCTR",
+                  "decoratedName": "?EncryptCTR@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCTR",
+                  "decoratedName": "?EncryptCTR@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 352,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCTR",
+                  "decoratedName": "?DecryptCTR@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 333,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCTR",
+                  "decoratedName": "?DecryptCTR@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 334,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCTR",
+                  "decoratedName": "?DecryptCTR@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 335,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCTR",
+                  "decoratedName": "?DecryptCTR@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 350,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCTR",
+                  "decoratedName": "?DecryptCTR@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 362,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptECB",
+                  "decoratedName": "?EncryptECB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 363,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptECB",
+                  "decoratedName": "?EncryptECB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptECB",
+                  "decoratedName": "?EncryptECB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 371,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptECB",
+                  "decoratedName": "?EncryptECB@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptECB",
+                  "decoratedName": "?DecryptECB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptECB",
+                  "decoratedName": "?DecryptECB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 382,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptECB",
+                  "decoratedName": "?DecryptECB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 384,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptECB",
+                  "decoratedName": "?DecryptECB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 394,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptECB",
+                  "decoratedName": "?DecryptECB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 385,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptECB",
+                  "decoratedName": "?DecryptECB@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 407,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptXTS",
+                  "decoratedName": "?EncryptXTS@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 408,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptXTS",
+                  "decoratedName": "?EncryptXTS@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 418,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptXTS",
+                  "decoratedName": "?EncryptXTS@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 420,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptXTS",
+                  "decoratedName": "?EncryptXTS@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 409,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptXTS",
+                  "decoratedName": "?EncryptXTS@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 430,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptXTS",
+                  "decoratedName": "?DecryptXTS@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 431,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptXTS",
+                  "decoratedName": "?DecryptXTS@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 442,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptXTS",
+                  "decoratedName": "?DecryptXTS@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 432,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptXTS",
+                  "decoratedName": "?DecryptXTS@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 444,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptXTS",
+                  "decoratedName": "?DecryptXTS@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 429,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptXTS",
+                  "decoratedName": "?DecryptXTS@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 469,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCCM",
+                  "decoratedName": "?EncryptCCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 484,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCCM",
+                  "decoratedName": "?EncryptCCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 470,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCCM",
+                  "decoratedName": "?EncryptCCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 468,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCCM",
+                  "decoratedName": "?EncryptCCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 483,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptCCM",
+                  "decoratedName": "?EncryptCCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 495,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCCM",
+                  "decoratedName": "?DecryptCCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 515,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCCM",
+                  "decoratedName": "?DecryptCCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 496,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCCM",
+                  "decoratedName": "?DecryptCCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 494,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptCCM",
+                  "decoratedName": "?DecryptCCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 527,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptGCM",
+                  "decoratedName": "?EncryptGCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 528,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptGCM",
+                  "decoratedName": "?EncryptGCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 545,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptGCM",
+                  "decoratedName": "?EncryptGCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 526,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptGCM",
+                  "decoratedName": "?EncryptGCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 544,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "EncryptGCM",
+                  "decoratedName": "?EncryptGCM@@YAXPEBD000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 581,
+                  "startColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptGCM",
+                  "decoratedName": "?DecryptGCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 556,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptGCM",
+                  "decoratedName": "?DecryptGCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 555,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptGCM",
+                  "decoratedName": "?DecryptGCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26444",
+          "message": {
+            "text": "Don't try to declare a local variable with no name (es.84)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+                },
+                "region": {
+                  "startLine": 557,
+                  "startColumn": 15
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "DecryptGCM",
+                  "decoratedName": "?DecryptGCM@@YAXPEBD0000@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CryptoPP::Rijndael::Base::m_rounds' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/rijndael.h"
+                },
+                "region": {
+                  "startLine": 69,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::Rijndael::Base::{ctor}",
+                  "decoratedName": "??0Base@Rijndael@CryptoPP@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CryptoPP::Rijndael::Base::m_rounds"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,1>::m_array' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/secblock.h"
+                },
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,1>::{ctor}",
+                  "decoratedName": "??0?$FixedSizeAllocatorWithCleanup@_K$0BA@V?$NullAllocator@_K@CryptoPP@@$00@CryptoPP@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,1>::m_array"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,0>::m_array' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/secblock.h"
+                },
+                "region": {
+                  "startLine": 584,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,0>::{ctor}",
+                  "decoratedName": "??0?$FixedSizeAllocatorWithCleanup@_K$0BA@V?$NullAllocator@_K@CryptoPP@@$0A@@CryptoPP@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned __int64,16,CryptoPP::NullAllocator<unsigned __int64>,0>::m_array"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,1>::m_array' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/secblock.h"
+                },
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,1>::{ctor}",
+                  "decoratedName": "??0?$FixedSizeAllocatorWithCleanup@I$0BA@V?$NullAllocator@I@CryptoPP@@$00@CryptoPP@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,1>::m_array"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0>::m_array' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/secblock.h"
+                },
+                "region": {
+                  "startLine": 584,
+                  "startColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0>::{ctor}",
+                  "decoratedName": "??0?$FixedSizeAllocatorWithCleanup@I$0BA@V?$NullAllocator@I@CryptoPP@@$0A@@CryptoPP@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "CryptoPP::FixedSizeAllocatorWithCleanup<unsigned int,16,CryptoPP::NullAllocator<unsigned int>,0>::m_array"
+          }
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.39.33520.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/cryptlib.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "6530ddb3d6f0056aa7a7ce8522d2789271d0e88cf849767953fbba347fbd7eb6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/queue.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "7a223d51a78bea39e6a7bdd02ae58cabfdda561e81e461550d240c47f8bd0264"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Admin/Desktop/AES/AES_DLL/AES.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c104c489dab6f603aba3ce95288aff2073de5c35974c6d986f6b7867a5a39210"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/rijndael.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "d82187fd5e08a45a74e9aac8a0b9197856ff879d072cdad8b204e6915fbabb4a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Uni/MMH/Lab/cryptopp870/include/cryptopp/secblock.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "18c55359ef2889d58670a91decc471738aadb66a0d00f456004b891534953ed3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/desktop/aes/aes_dll/pch.h"
+          },
+          "hashes": {
+            "sha-256": "c2d8c468b0dd828eaa49a609c5e54ebca95ea4d2de3cd390e968e01c5d7f79ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/admin/desktop/aes/aes_dll/framework.h"
+          },
+          "hashes": {
+            "sha-256": "188c9e04096a0a539b82a8c61784d69fd7334dea8066c181f31b429024974384"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/osrng.h"
+          },
+          "hashes": {
+            "sha-256": "778f531a084bcdced976ece487b1f333d424c026826efa44d67f6bff2612ba25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config.h"
+          },
+          "hashes": {
+            "sha-256": "641a512721c40a6778dfcc143b611c6204f38916bae55d391e2c74c18b70b2f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_align.h"
+          },
+          "hashes": {
+            "sha-256": "a80014887fa75fa4af1ae0f8bcd1f9fd67e3906619fc4ea9dbd34eb205e1e9c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_asm.h"
+          },
+          "hashes": {
+            "sha-256": "025caa32911fde69b5fd5e02434b934492137639cb0fae20ec7e98b7c942e4ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_os.h"
+          },
+          "hashes": {
+            "sha-256": "6b2f8eaac8a044e3b46375f377416f28a479ea4f46a9244a4bc50e6fa5f9fbb0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_ver.h"
+          },
+          "hashes": {
+            "sha-256": "9df1a0f4ccdc87a40d5c541aca0531b8ca64bca0e8ef42f6d471135fe978c7ef"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_cpu.h"
+          },
+          "hashes": {
+            "sha-256": "a80343e48a8ca25de5de4afa4b3bec36c8c1e0c37e955a1d10a7948547d49163"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_cxx.h"
+          },
+          "hashes": {
+            "sha-256": "11da5fc800b606ef7901a67adb31f7d3ce4817f7c12d37469b28aebc1c0398ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_dll.h"
+          },
+          "hashes": {
+            "sha-256": "5f5f25287fc9a0bd49230edebaf6377b64f8020aa04d843cdd1a5449dd34c5e4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_int.h"
+          },
+          "hashes": {
+            "sha-256": "26eef1f3bf8ce53ddd69d131e260302350abc953a90bae35c1125ba6d030ce2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_ns.h"
+          },
+          "hashes": {
+            "sha-256": "c4bc5ebf250efea647afb1873fb89f6b9dc540485f6f569f8b868cd9e8994ef9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/config_misc.h"
+          },
+          "hashes": {
+            "sha-256": "2e4863d6efa0895c4f18f6a6cd909cf54c110d4ff2bcc61671d8dcfff0077800"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/stdcpp.h"
+          },
+          "hashes": {
+            "sha-256": "70238c1ea31b97a92ae0af30da6a7cc3984692384c018b7ff270d5e0b857ea54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/trap.h"
+          },
+          "hashes": {
+            "sha-256": "a82a30348451a7d113ddea392d03b834085802dd05c12c265546d3b90599403f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/randpool.h"
+          },
+          "hashes": {
+            "sha-256": "1d29d8662ebab0da03dc7782e886df16656549ae7c89983c53d89f4779e6785b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/filters.h"
+          },
+          "hashes": {
+            "sha-256": "783038cf6411bcddcd92c0b900cbfbb4c9038dbfe828ae8fda444313215cf4a9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/simple.h"
+          },
+          "hashes": {
+            "sha-256": "41a165d3b4ffce87755b28b878e08503d571558cffe5877b7e00cb84226ef373"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/misc.h"
+          },
+          "hashes": {
+            "sha-256": "2ca9d53494ceada2f2c5bd5d40237f99f56b602c676177a6889f55f1fbbb850e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/secblockfwd.h"
+          },
+          "hashes": {
+            "sha-256": "472e5d0fa333257c3b8254e5fddbcbaa803dae920f65d64542219c0b3b8400cf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/smartptr.h"
+          },
+          "hashes": {
+            "sha-256": "a2d6f834c9e2890943a203ce7397976d8618e62c3d56f6a6afa456ffdc22e879"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/allocate.h"
+          },
+          "hashes": {
+            "sha-256": "6fbcf40f97fb72c1523bb597d28337623997bc5610f235b9d440b22289b6f970"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/algparam.h"
+          },
+          "hashes": {
+            "sha-256": "e469f4fabc94836a535c494e3715bb9935d7e4366a0d88be862419c6874ede71"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/integer.h"
+          },
+          "hashes": {
+            "sha-256": "c193d6b49bcda35ff05ad5fb01fb77dcea3c22588d15d82825bb8002a3741c0a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/aes.h"
+          },
+          "hashes": {
+            "sha-256": "fbd98402a8ddab54389a433c5685356bf3d3ad2ae37747c242a593667379a683"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/seckey.h"
+          },
+          "hashes": {
+            "sha-256": "54204f1ae34214150d0087043c19e25e83abe010837ef214a232891598501cfa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/fips140.h"
+          },
+          "hashes": {
+            "sha-256": "cb4042de79c44789f6730c331dab5cb2ad6d10730e24557084f363c0daf71f34"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/hkdf.h"
+          },
+          "hashes": {
+            "sha-256": "1ccedcd401635ac077d895f147ef142645ad7216205d4adf46899e35e8222b5b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/hmac.h"
+          },
+          "hashes": {
+            "sha-256": "f8becd33fc708ac1bbcc1929d34fb0f8f7f7b7592f52bc5d8e985d862c0e8cbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/rng.h"
+          },
+          "hashes": {
+            "sha-256": "40f2532cf14e950080bb1ba1383c52a2e5af0ab09779de89524f066735b6fa2b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/sha.h"
+          },
+          "hashes": {
+            "sha-256": "9d9cb08b466b520a21a9549ce438aba5f4c0479e46240a4c4f9160a930962d7c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/iterhash.h"
+          },
+          "hashes": {
+            "sha-256": "397298f1eadcfe7165f8b86670a7879641244e7a48aab62fe910dd3fc6eb3ff5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/hex.h"
+          },
+          "hashes": {
+            "sha-256": "c2d77dcba2ae606bfbe05375435a43e2172b3b036290424d57cf310d12d5d7d1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/basecode.h"
+          },
+          "hashes": {
+            "sha-256": "00483175aa5484357b4c154f16b8fbaf795f04ae0a9d01da4d503a585c285db7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/argnames.h"
+          },
+          "hashes": {
+            "sha-256": "4fa6995e67001c2b744d64e2f7f36629cf489be21f1ff242fbc13da43df59769"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/xts.h"
+          },
+          "hashes": {
+            "sha-256": "105a8198b9b4cc1cacf312d544df4cda579544c93adebd4ba5bdc4c88e11c382"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/modes.h"
+          },
+          "hashes": {
+            "sha-256": "18b2ab60cca2156f0c71314272d527894b09ddf3a3d2b8ced58fc9cf4a309fda"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/strciphr.h"
+          },
+          "hashes": {
+            "sha-256": "afc19eaeb53bdb4f6b5d6650d2e06173023750606376e0c31c19835077c1be8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/ccm.h"
+          },
+          "hashes": {
+            "sha-256": "941f749d7b55a2d4a8eb38c4f8b29131a541a5898c9e55a262e166988db54d54"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/authenc.h"
+          },
+          "hashes": {
+            "sha-256": "4bada51b1be71e453bff1da0e59e6511e2d73d36093591729b44fa4c5acf5f33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/gcm.h"
+          },
+          "hashes": {
+            "sha-256": "8d0ffdd323475799dfa029ef8b8af4ed556e06194ee4162a5b34ca3b38335cf2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/uni/mmh/lab/cryptopp870/include/cryptopp/files.h"
+          },
+          "hashes": {
+            "sha-256": "b41d43ee146e1d42476547ee68b7714ef301f549d2efe587e3e7221ca461019f"
+          }
+        }
+      ]
+    }
+  ]
+}
