@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Uni\\MMH\\AES\\AES_DLL\\",
+  "WorkspaceRootPath": "E:\\Workspace\\AES\\AES_DLL\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1F725E53-C6B2-4C07-9FC6-69F3F8C168FD}|AES_DLL.vcxproj|C:\\Uni\\MMH\\AES\\AES_DLL\\AES.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{1F725E53-C6B2-4C07-9FC6-69F3F8C168FD}|AES_DLL.vcxproj|E:\\Workspace\\AES\\AES_DLL\\AES.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{1F725E53-C6B2-4C07-9FC6-69F3F8C168FD}|AES_DLL.vcxproj|solutionrelative:AES.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "AES.cpp",
-              "DocumentMoniker": "C:\\Uni\\MMH\\AES\\AES_DLL\\AES.cpp",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_DLL\\AES.cpp",
               "RelativeDocumentMoniker": "AES.cpp",
-              "ToolTip": "C:\\Uni\\MMH\\AES\\AES_DLL\\AES.cpp",
+              "ToolTip": "E:\\Workspace\\AES\\AES_DLL\\AES.cpp",
               "RelativeToolTip": "AES.cpp",
-              "ViewState": "AQIAACMCAAAAAAAAAAAUwDACAAAVAAAA",
+              "ViewState": "AQIAAHcAAAAAAAAAAAAAAEgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-06-16T14:30:26.423Z",
               "EditorCaption": ""

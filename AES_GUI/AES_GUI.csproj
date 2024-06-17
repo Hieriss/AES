@@ -81,16 +81,52 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Decryptor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Decryptor.Designer.cs">
+      <DependentUpon>Decryptor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Encryptor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Encryptor.Designer.cs">
+      <DependentUpon>Encryptor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IVGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IVGenerator.Designer.cs">
+      <DependentUpon>IVGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KeyGenerator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KeyGenerator.Designer.cs">
+      <DependentUpon>KeyGenerator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Decryptor.resx">
+      <DependentUpon>Decryptor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Encryptor.resx">
+      <DependentUpon>Encryptor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IVGenerator.resx">
+      <DependentUpon>IVGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KeyGenerator.resx">
+      <DependentUpon>KeyGenerator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

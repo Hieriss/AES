@@ -8,3 +8,17 @@ C:\Users\Admin\Desktop\AES\AES_GUI\obj\x64\Debug\AES_GUI.csproj.GenerateResource
 C:\Users\Admin\Desktop\AES\AES_GUI\obj\x64\Debug\AES_GUI.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\AES\AES_GUI\obj\x64\Debug\AES_GUI.exe
 C:\Users\Admin\Desktop\AES\AES_GUI\obj\x64\Debug\AES_GUI.pdb
+E:\Workspace\AES\AES_GUI\bin\x64\Debug\AES_GUI.exe.config
+E:\Workspace\AES\AES_GUI\bin\x64\Debug\AES_GUI.exe
+E:\Workspace\AES\AES_GUI\bin\x64\Debug\AES_GUI.pdb
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.csproj.AssemblyReference.cache
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.Properties.Resources.resources
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.csproj.GenerateResource.cache
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.csproj.CoreCompileInputs.cache
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.exe
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.pdb
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.Menu.resources
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.KeyGenerator.resources
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.IVGenerator.resources
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.Decryptor.resources
+E:\Workspace\AES\AES_GUI\obj\x64\Debug\AES_GUI.Encryptor.resources

@@ -71,7 +71,7 @@ extern "C"
     DLL_EXPORT void KeyGen(const char* key_length, const char* file_name);
     DLL_EXPORT void IVGen(const char* iv_length, const char* file_name);
     DLL_EXPORT void Encrypt(const char* mode, const char* key_file, const char* iv_file, const char* plaintext_file, const char* ciphertext_file);
-    DLL_EXPORT void Decrypt(const char* mode, const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file);
+    DLL_EXPORT void Decrypt(const char* mode, const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file);
 }
 
 void Usage() {
@@ -80,8 +80,8 @@ void Usage() {
     cout << "   keygen <key_length> <file_name>" << endl;
     cout << "   ivgen <iv_length> <file_name>" << endl;
     cout << "   encrypt <mode> <key_file> <iv_file> <plaintext_file> <ciphertext_file>" << endl;
-    cout << "   decrypt <mode> <key_file> <iv_file> <ciphertext_file> <plaintext_file> <recovered_file>" << endl;
-    cout << " ----------------------------------------------------------------------- " << endl;
+    cout << "   decrypt <mode> <key_file> <iv_file> <ciphertext_file> <recovered_file>" << endl;
+    cout << " ------------------------------------------------------------------------ " << endl;
 }
 
 void KeyGen(const char* key_length, const char* file_name) {
@@ -151,7 +151,7 @@ void EncryptCBC(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptCBC(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptCBC(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, iv, cipher;
     string key_file_str(key_file);
     string iv_file_str(iv_file);
@@ -209,7 +209,7 @@ void EncryptCFB(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptCFB(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptCFB(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, iv, cipher;
     string key_file_str(key_file);
     string iv_file_str(iv_file);
@@ -267,7 +267,7 @@ void EncryptOFB(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptOFB(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptOFB(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, iv, cipher;
     string key_file_str(key_file);
     string iv_file_str(iv_file);
@@ -325,7 +325,7 @@ void EncryptCTR(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptCTR(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptCTR(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, iv, cipher;
     string key_file_str(key_file);
     string iv_file_str(iv_file);
@@ -375,7 +375,7 @@ void EncryptECB(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptECB(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptECB(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, cipher;
     string key_file_str(key_file);
     string ciphertext_file_str(ciphertext_file);
@@ -422,7 +422,7 @@ void EncryptXTS(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptXTS(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptXTS(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, iv, cipher;
     string key_file_str(key_file);
     string ciphertext_file_str(ciphertext_file);
@@ -486,7 +486,7 @@ void EncryptCCM(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptCCM(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptCCM(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, iv, cipher;
     string key_file_str(key_file);
     string iv_file_str(iv_file);
@@ -544,7 +544,7 @@ void EncryptGCM(const char* key_file, const char* iv_file, const char* plaintext
     cout << "Encryption completed!" << endl;
 }
 
-void DecryptGCM(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void DecryptGCM(const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     string key, iv, cipher;
     string key_file_str(key_file);
     string iv_file_str(iv_file);
@@ -605,30 +605,30 @@ void Encrypt(const char* mode, const char* key_file, const char* iv_file, const 
     }
 }
 
-void Decrypt(const char* mode, const char* key_file, const char* iv_file, const char* ciphertext_file, const char* plaintext_file, const char* recovered_file) {
+void Decrypt(const char* mode, const char* key_file, const char* iv_file, const char* ciphertext_file, const char* recovered_file) {
     if (strcmp(mode, "CBC") == 0) {
-        DecryptCBC(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptCBC(key_file, iv_file, ciphertext_file,recovered_file);
     }
     else if (strcmp(mode, "CFB") == 0) {
-        DecryptCFB(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptCFB(key_file, iv_file, ciphertext_file, recovered_file);
     }
     else if (strcmp(mode, "OFB") == 0) {
-        DecryptOFB(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptOFB(key_file, iv_file, ciphertext_file, recovered_file);
     }
     else if (strcmp(mode, "CTR") == 0) {
-        DecryptCTR(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptCTR(key_file, iv_file, ciphertext_file, recovered_file);
     }
     else if (strcmp(mode, "ECB") == 0) {
-        DecryptECB(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptECB(key_file, iv_file, ciphertext_file, recovered_file);
     }
     else if (strcmp(mode, "XTS") == 0) {
-        DecryptXTS(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptXTS(key_file, iv_file, ciphertext_file, recovered_file);
     }
     else if (strcmp(mode, "CCM") == 0) {
-        DecryptCCM(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptCCM(key_file, iv_file, ciphertext_file, recovered_file);
     }
     else if (strcmp(mode, "GCM") == 0) {
-        DecryptGCM(key_file, iv_file, ciphertext_file, plaintext_file, recovered_file);
+        DecryptGCM(key_file, iv_file, ciphertext_file, recovered_file);
     }
     else {
         cout << "Invalid mode, please re-check the usage!" << endl;
@@ -679,7 +679,7 @@ int main(int argc, char* argv[]) {
             cout << "Wrong number of arguments for decrypt, please re-check the usage!" << endl;
             return 1;
         }
-        Decrypt(argv[2], argv[3], argv[4], argv[5], argv[6], argv[7]);
+        Decrypt(argv[2], argv[3], argv[4], argv[5], argv[6]);
     }
     else {
         cout << "Invalid command, please re-check the usage!" << endl;

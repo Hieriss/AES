@@ -1,18 +1,15 @@
-﻿  pch.cpp
-  AES.cpp
-C:\Uni\MMH\AES\AES_DLL\AES.cpp(89,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+﻿  AES.cpp
+E:\Workspace\AES\AES_DLL\AES.cpp(89,21): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   (compiling source file '/AES.cpp')
   
-C:\Uni\MMH\AES\AES_DLL\AES.cpp(95,22): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+E:\Workspace\AES\AES_DLL\AES.cpp(95,22): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
   (compiling source file '/AES.cpp')
   
-C:\Uni\MMH\AES\AES_DLL\AES.cpp(108,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Workspace\AES\AES_DLL\AES.cpp(108,20): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
   (compiling source file '/AES.cpp')
   
-C:\Uni\MMH\AES\AES_DLL\AES.cpp(114,21): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
+E:\Workspace\AES\AES_DLL\AES.cpp(114,21): warning C4244: 'argument': conversion from 'float' to 'unsigned __int64', possible loss of data
   (compiling source file '/AES.cpp')
   
-  dllmain.cpp
-  Generating Code...
-     Creating library C:\Uni\MMH\AES\AES_DLL\x64\Debug\AES_DLL.lib and object C:\Uni\MMH\AES\AES_DLL\x64\Debug\AES_DLL.exp
-  AES_DLL.vcxproj -> C:\Uni\MMH\AES\AES_DLL\x64\Debug\AES_DLL.dll
+     Creating library E:\Workspace\AES\AES_DLL\x64\Debug\AES_DLL.lib and object E:\Workspace\AES\AES_DLL\x64\Debug\AES_DLL.exp
+  AES_DLL.vcxproj -> E:\Workspace\AES\AES_DLL\x64\Debug\AES_DLL.dll

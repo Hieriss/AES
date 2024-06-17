@@ -1,17 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Uni\\MMH\\AES\\AES_GUI\\",
+  "WorkspaceRootPath": "E:\\Workspace\\AES\\AES_GUI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|c:\\uni\\mmh\\aes\\aes_gui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|E:\\Workspace\\AES\\AES_GUI\\decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|C:\\Uni\\MMH\\AES\\AES_GUI\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|e:\\workspace\\aes\\aes_gui\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|AES_GUI||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|E:\\Workspace\\AES\\AES_GUI\\ivgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:ivgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|E:\\Workspace\\AES\\AES_GUI\\ivgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:ivgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|E:\\Workspace\\AES\\AES_GUI\\encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:encryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|E:\\Workspace\\AES\\AES_GUI\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|E:\\Workspace\\AES\\AES_GUI\\menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:menu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|E:\\Workspace\\AES\\AES_GUI\\decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F7AA5E7D-82D0-4103-8DDB-5D25ED045696}|AES_GUI.csproj|solutionrelative:decryptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,42 +42,106 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "AES_GUI",
-              "DocumentMoniker": "C:\\Uni\\MMH\\AES\\AES_GUI\\AES_GUI.csproj",
-              "RelativeDocumentMoniker": "AES_GUI.csproj",
-              "ToolTip": "C:\\Uni\\MMH\\AES\\AES_GUI\\AES_GUI.csproj",
-              "RelativeToolTip": "AES_GUI.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-05-08T02:52:58.932Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Uni\\MMH\\AES\\AES_GUI\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Uni\\MMH\\AES\\AES_GUI\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAApwDsAAAAMAAAA",
+              "Title": "IVGenerator.cs",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\IVGenerator.cs",
+              "RelativeDocumentMoniker": "IVGenerator.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\IVGenerator.cs",
+              "RelativeToolTip": "IVGenerator.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAYwCsAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:58:24.497Z",
+              "WhenOpened": "2024-06-17T07:28:17.785Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Uni\\MMH\\AES\\AES_GUI\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\Uni\\MMH\\AES\\AES_GUI\\Form1.cs [Design]",
-              "RelativeToolTip": "Form1.cs [Design]",
+              "DocumentIndex": 3,
+              "Title": "IVGenerator.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\IVGenerator.cs",
+              "RelativeDocumentMoniker": "IVGenerator.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\IVGenerator.cs [Design]",
+              "RelativeToolTip": "IVGenerator.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-07T12:54:40.446Z",
+              "WhenOpened": "2024-06-17T07:28:16.343Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Encryptor.cs",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\Encryptor.cs",
+              "RelativeDocumentMoniker": "Encryptor.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\Encryptor.cs",
+              "RelativeToolTip": "Encryptor.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAuwBwAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:18:55.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Encryptor.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\Encryptor.cs",
+              "RelativeDocumentMoniker": "Encryptor.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\Encryptor.cs [Design]",
+              "RelativeToolTip": "Encryptor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:14:06.07Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Decryptor.cs",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\Decryptor.cs",
+              "RelativeDocumentMoniker": "Decryptor.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\Decryptor.cs",
+              "RelativeToolTip": "Decryptor.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAA1wBoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T07:08:24.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Decryptor.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\Decryptor.cs",
+              "RelativeDocumentMoniker": "Decryptor.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\Decryptor.cs [Design]",
+              "RelativeToolTip": "Decryptor.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T06:58:36.197Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Menu.cs",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\Menu.cs",
+              "RelativeToolTip": "Menu.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAYwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T05:29:52.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Menu.cs [Design]",
+              "DocumentMoniker": "E:\\Workspace\\AES\\AES_GUI\\Menu.cs",
+              "RelativeDocumentMoniker": "Menu.cs",
+              "ToolTip": "E:\\Workspace\\AES\\AES_GUI\\Menu.cs [Design]",
+              "RelativeToolTip": "Menu.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T05:23:15.366Z",
               "EditorCaption": " [Design]"
             }
           ]
